@@ -1,0 +1,302 @@
+@media only screen and (max-width: 399px) {
+    ul >li{
+        display: none;
+    }
+    img.logo{
+        width: 120px;
+    }
+    div.headerLogo{
+        padding: 20px 0px 15px 60%;
+    }
+    .dropdown{
+        position: relative;
+        display: inline;
+    }
+    .banner-image >img{
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+        position: relative;
+        top: 140px;
+        left: 25px;
+    }
+    .banner-subtext{
+        padding: 0px 0px 0px 4%;
+        font-size: 9px;
+        position: relative;
+        bottom: 40%;
+    }
+    .banner-text{
+        padding: 0px 0px 0px 0px;
+        font-size: 25px;
+        font-weight: 300;
+        width: 91%;
+        position: relative;
+        bottom: 41%;
+    }
+    .banner-btn{
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-left: 4%;
+        position: relative;
+        bottom: 280px;
+    }
+    .product{
+        display: block;
+        padding-right: 9%;
+    }
+    .first-p,.second-p,.third-p,.fourth-p{
+        width: 150px;
+    }
+
+
+}
+
+@media only screen and (min-width: 400px) {
+    ul>li{
+    display: inline;
+    color: white;
+    font-size: 9px;
+    padding-right: 10px;
+}
+    img.logo{
+        width: 120px;
+    }
+    div.headerLogo{
+        padding: 20px 0px 0px 20px;
+    }
+    .banner-image>img{
+        width:80%;
+        padding: 85px 20% 0px 0px;
+        position: relative;
+        top: 150px;
+        left:80px;
+    }
+    .banner-subtext{
+        padding: 0px 0px 0px 4%;
+        font-size: 11px;
+        position: relative;
+        bottom: 47%;
+
+    }
+    .banner-text{
+        padding: 195px 0px 0px 0px;
+        font-size: 40px;
+        width: 90%;
+        position: relative;
+        bottom: 48%;
+    }
+    .banner-btn{
+        font-size: 13px;
+        padding: 13px 21px;
+        margin-left: 4%;
+        position: relative;
+        bottom: 335px;
+    }
+    .product{
+        display: list-item;
+        padding-left: 13%;
+        padding-right: 12%;
+    }
+
+
+}
+
+@media only screen and (min-width: 650px) {
+        ul>li{
+            display: inline;
+            color: white;
+            font-size: 12px;
+            padding-right: 10px;
+        }
+        div.headerLogo{
+            padding: 20px 0px 0px 60px;
+        }
+        .banner-image>img{
+            width: 70%;
+            position: relative;
+            padding: 50px 0px 0px 0px;
+            left: 270px;
+            top: 0px;
+        }
+        .banner-subtext{
+            padding: 0px 0px 0px 7%;
+            font-size: 11px;
+            position: relative;
+            bottom: 32%;
+
+        }
+        .banner-text{
+            padding: 195px 40% 0px 0px;
+            font-size: 35px;
+            font-weight: 300;
+            width: 45%;
+            position: relative;
+            bottom: 33%;
+        }
+        .banner-btn{
+            font-size: 13px;
+            padding: 13px 21px;
+            margin-left: 7%;
+            position: relative;
+            bottom: 220px;
+        }
+        .product{
+            display: flex;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+
+    .first-p,.second-p,.third-p,.fourth-p{
+        width: 50%;
+    }
+    .deatils-btn{
+        padding: 5% 15%;
+        font-size: 0.7em;
+        font-weight: 500;
+    }
+
+}
+
+@media only screen and (min-width: 850px) {
+        div.headerLogo{
+            padding: 20px 0px 0px 80px;
+        }
+        ul>li{
+            display: inline;
+            color: white;
+            font-size: 13px;
+            padding-right: 15px;
+        }
+        .banner-image > img{
+            width: 80%;
+            padding: 50px 0px 0px 0px;
+            position: relative;
+            left: 235px;
+            top: 0px;
+        }
+        .banner-subtext{
+            padding: 5px 0px 0px 10%;
+            font-size: 13px;
+            position: relative;
+        }
+        .banner-text{
+            padding: 575px 35% 0px 0px;
+            font-size: 45px;
+            width: 45%;
+        }
+        .banner-btn{
+            font-size: 13px;
+            padding: 13px 21px;
+            margin-left: 10%;
+            position: relative;
+            bottom: 225px;
+        }
+        .first-product,.second-product,.third-product,.fourth-product{
+            margin-right: 3%;
+        }
+        .product{
+            padding-left: 3%;
+            padding-right: 0%;
+        }
+
+}
+
+@media only screen and (min-width: 1100px) {
+    div.headerLogo{
+        padding: 20px 0px 0px 80px;
+    }
+    ul>li{
+        display: inline;
+        color: white;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    .banner-image > img{
+        width: 100%;
+        position: relative;
+        left: 50px;
+        top: 0px;
+    }
+    .banner-subtext{
+        padding: 5px 0px 0px 10%;
+        position: relative;
+        bottom: 31%;
+    }
+    .banner-text{
+        padding: 575px 35% 0px 0px;
+        font-size: 45px;
+        width: 45%;
+    }
+    .banner-btn{
+        bottom: 210px;
+    }
+    .product{
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 100px;
+    }
+    .first-product,.second-product,.third-product,.fourth-product{
+        width: 20%;
+    }
+    .first-p,.second-p,.third-p,.fourth-p{
+        width: 85%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1400px) {
+    ul>li{
+        display: inline;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    .banner-image>img{
+        width: 100%;
+        position: relative;
+        left: 50px;
+        top: 0px;
+    }
+    .banner-subtext{
+        padding: 5px 0px 0px 10%;
+        bottom: 32%;
+        font-size: 13px;
+
+    }
+    .banner-text{
+        padding: 575px 35% 0px 0px;
+        font-size: 45px;
+        width: 45%;
+
+    }
+    .banner-btn{
+        margin-left: 10%;
+        position: relative;
+        bottom: 225px;
+    }
+    .product{
+        padding-left: 9%;
+        padding-right: 7%;
+        padding-top: 100px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
